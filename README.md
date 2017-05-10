@@ -2,6 +2,6 @@
 
 Check Java installation path on Mac OS X
 
-```$(/usr/libexec/java_home)```
+```(/usr/libexec/java_home)```
 
 
