@@ -1,2 +1,7 @@
 # useful-commands-2
-Useful commands for terminal
+
+Check Java installation path on Mac OS X
+
+```$(/usr/libexec/java_home)```
+
+
