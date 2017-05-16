@@ -8,4 +8,7 @@
 
 ```echo -n | openssl s_client {HOST}:{PORT(443)} | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ./{CERT_FILE_NAME}.crt```
 
+* How to stop Gradle task execution in Android Studio?
+
+```./gradlew --stop```
 
