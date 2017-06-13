@@ -12,3 +12,14 @@
 
 ```./gradlew --stop```
 
+* Print project dependencies as ascii tree
+
+```./gradlew dependencies```
+
+* Print project dependencies as ascii tree for a multi-module project. Add the following to the root build.gradle file and then run the task
+
+```
+subprojects {
+    task allDeps(type: DependencyReportTask) {}
+}
+```
