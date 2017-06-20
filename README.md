@@ -23,3 +23,7 @@ subprojects {
     task allDeps(type: DependencyReportTask) {}
 }
 ```
+
+* Guide to install SSH key and adding it to the SSH agent
+
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
