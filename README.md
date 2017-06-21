@@ -27,3 +27,7 @@ subprojects {
 * Guide to install SSH key and adding it to the SSH agent
 
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+* Add certificate to the Java keystore
+
+```sudo keytool -import -trustcacerts -alias example.com -file ./the_website_cert.pem -keystore $JAVA_HOME/jre/lib/security/cacerts```
