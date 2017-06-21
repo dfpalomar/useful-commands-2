@@ -31,3 +31,7 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
 * Add certificate to the Java keystore
 
 ```sudo keytool -import -trustcacerts -alias example.com -file ./the_website_cert.pem -keystore $JAVA_HOME/jre/lib/security/cacerts```
+
+* Cron job online generator
+
+```https://crontab.guru/every-month```
